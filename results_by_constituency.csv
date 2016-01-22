@@ -1,0 +1,121 @@
+constituency_2015,district,cand_2015,cand_2015_en,%14,%15,delta,votes14,votes15,%обролених,nm,district_en,has_cand_2015,diff,expected
+1,Голо,Пушкар І,Pushkar I,3.77,4.2,0.427,405,294,88,Пушкар І 1,Holosiivskyi,with candidate,-1.3125,5.5125
+2,Голо,нк,--,3.06,3.26,0.203,316,221,100,нк 2,Holosiivskyi,without candidate,-1.365,4.625
+3,Голо,Олефір А,Olefir A,4.17,7.67,3.5,465,541,100,Олефір А 3,Holosiivskyi,with candidate,1.6575,6.0125
+4,Голо,Сагайдак Т,Sahaidak T,3.73,5.15,1.417,425,396,100,Сагайдак Т 4,Holosiivskyi,with candidate,-0.3125,5.4625
+5,Голо,Іванюк А,Ivanyuk A,4.37,7.29,2.924,485,561,100,Іванюк А 5,Holosiivskyi,with candidate,1.0275,6.2625
+6,Голо,Терлецький О,Terletskyi O,5.55,7.52,1.97,636,510,100,Терлецький О 6,Holosiivskyi,with candidate,-0.2175,7.7375
+7,Голо,Кропта Р,Kropta R,2.62,4.39,1.765,249,286,100,Кропта Р 7,Holosiivskyi,with candidate,0.315,4.075
+8,Голо,Альїд Ф,Alid Ph,3.86,4.93,1.068,362,341,100,Альїд Ф 8,Holosiivskyi,with candidate,-0.695,5.625
+9,Голо,Кур Т,Kur T,5.3,7.63,2.324,534,551,100,Кур Т 9,Holosiivskyi,with candidate,0.205,7.425
+10,Голо,Щепіна М,Shchepina M,3.14,3.75,0.615,315,289,100,Щепіна М 10,Holosiivskyi,with candidate,-0.975,4.725
+11,Дарн,Волошина І,Voloshyna I,3.61,6.46,2.852,428,473,100,Волошина І 11,Darnytskyi,with candidate,1.1475,5.3125
+12,Дарн,Барило С,Barylo S,2.62,4.79,2.168,291,342,100,Барило С 12,Darnytskyi,with candidate,0.715,4.075
+13,Дарн,нк,--,2.05,3.47,1.416,240,275,100,нк 13,Darnytskyi,without candidate,0.1075,3.3625
+14,Дарн,нк,--,2.12,3.52,1.407,216,234,99,нк 14,Darnytskyi,without candidate,0.07,3.45
+15,Дарн,нк,--,1.43,2.69,1.256,152,180,100,нк 15,Darnytskyi,without candidate,0.1025,2.5875
+16,Дарн,Надопта В,Nadopta V,1.06,3.2,2.141,115,188,100,Надопта В 16,Darnytskyi,with candidate,1.075,2.125
+17,Дарн,Литвиненко Ю,Lytvynenko Yu,2.13,3.33,1.194,228,231,100,Литвиненко Ю 17,Darnytskyi,with candidate,-0.1325,3.4625
+18,Дарн,нк,--,1.76,3.21,1.442,189,207,100,нк 18,Darnytskyi,without candidate,0.21,3
+19,Дарн,Павловська К,Pavlovska K,4.03,6.13,2.104,436,424,100,Павловська К 19,Darnytskyi,with candidate,0.2925,5.8375
+20,Дарн,Підскальна О,Pidskalna O,3.08,4.59,1.512,352,369,100,Підскальна О 20,Darnytskyi,with candidate,-0.06,4.65
+21,Дарн,Мазуренко Я,Mazurenko Ya,3.73,5.83,2.098,398,427,100,Мазуренко Я 21,Darnytskyi,with candidate,0.3675,5.4625
+22,Дарн,нк,--,4.16,6.3,2.139,487,504,100,нк 22,Darnytskyi,without candidate,0.3,6
+23,Дарн,Сідляренко А,Sidlyarenko A,4.44,7.22,2.783,474,496,100,Сідляренко А 23,Darnytskyi,with candidate,0.87,6.35
+24,Дарн,Головнов О,Holovnyov O,3.68,6.35,2.669,393,427,100,Головнов О 24,Darnytskyi,with candidate,0.95,5.4
+25,Дарн,нк,--,1.35,2.12,0.769,136,133,100,нк 25,Darnytskyi,without candidate,-0.3675,2.4875
+26,Дарн,нк,--,1.93,3.07,1.135,230,252,100,нк 26,Darnytskyi,without candidate,-0.1425,3.2125
+27,Десн,нк,--,2.28,3.1,0.819,271,204,87,нк 27,Desnyanskyi,without candidate,-0.55,3.65
+28,Десн,нк,--,2.25,3.34,1.094,247,218,100,нк 28,Desnyanskyi,without candidate,-0.2725,3.6125
+29,Десн,нк,--,2.53,2.77,0.244,283,195,100,нк 29,Desnyanskyi,without candidate,-1.1925,3.9625
+30,Десн,нк,--,2.32,3.35,1.036,255,165,72,нк 30,Desnyanskyi,without candidate,-0.35,3.7
+31,Десн,нк,--,2.15,3.4,1.246,248,192,77,нк 31,Desnyanskyi,without candidate,-0.0875,3.4875
+32,Десн,нк,--,2.27,3.55,1.285,263,222,88,нк 32,Desnyanskyi,without candidate,-0.0875,3.6375
+33,Десн,нк,--,2.34,3.84,1.507,267,266,100,нк 33,Desnyanskyi,without candidate,0.115,3.725
+34,Десн,Панов М,Panov M,2.37,3.69,1.315,283,193,74,Панов М 34,Desnyanskyi,with candidate,-0.0725,3.7625
+35,Десн,нк,--,2.04,2.98,0.943,223,174,80,нк 35,Desnyanskyi,without candidate,-0.37,3.35
+36,Десн,нк,--,1.69,3.29,1.598,210,224,90,нк 36,Desnyanskyi,without candidate,0.3775,2.9125
+37,Десн,Гаген А,Hahen A,2.22,4.38,2.163,208,231,100,Гаген А 37,Desnyanskyi,with candidate,0.805,3.575
+38,Десн,нк,--,3.56,6.24,2.678,410,165,39,нк 38,Desnyanskyi,without candidate,0.99,5.25
+39,Десн,нк,--,1.93,3.24,1.31,202,199,93,нк 39,Desnyanskyi,without candidate,0.0275,3.2125
+40,Десн,Башук В,Bashuk B,2.19,4.59,2.398,241,270,77,Башук В 40,Desnyanskyi,with candidate,1.0525,3.5375
+41,Десн,нк,--,1.72,3.29,1.573,184,104,52,нк 41,Desnyanskyi,without candidate,0.34,2.95
+42,Десн,нк,--,1.55,2.81,1.26,194,201,100,нк 42,Desnyanskyi,without candidate,0.0725,2.7375
+43,Дніп,нк,--,2.18,3.05,0.867,238,240,100,нк 43,Dniprovskyi,without candidate,-0.475,3.525
+44,Дніп,Мазуренко О,Mazurenko O,2.34,3.53,1.188,247,242,100,Мазуренко О 44,Dniprovskyi,with candidate,-0.195,3.725
+45,Дніп,нк,--,1.66,2.73,1.079,191,209,100,нк 45,Dniprovskyi,without candidate,-0.145,2.875
+46,Дніп,нк,--,1.8,3.4,1.607,200,206,100,нк 46,Dniprovskyi,without candidate,0.35,3.05
+47,Дніп,Паренюк А,Parenyuk A,2.67,4.2,1.533,273,247,100,Паренюк А 47,Dniprovskyi,with candidate,0.0625,4.1375
+48,Дніп,Фадєєв О,Fdyeev O,4.15,5.74,1.595,459,454,100,Фадєєв О 48,Dniprovskyi,with candidate,-0.2475,5.9875
+49,Дніп,Моргунський М,Morgunskyi M,3.19,4.65,1.468,346,354,100,Моргунський М 49,Dniprovskyi,with candidate,-0.1375,4.7875
+50,Дніп,Пирогов В,Pyrogov V,2.9,4.13,1.231,310,290,100,Пирогов В 50,Dniprovskyi,with candidate,-0.295,4.425
+51,Дніп,Федченко Д,Fedchenko D,3.03,4.4,1.364,303,292,100,Федченко Д 51,Dniprovskyi,with candidate,-0.1875,4.5875
+52,Дніп,нк,--,3,4.38,1.384,312,279,100,нк 52,Dniprovskyi,without candidate,-0.17,4.55
+53,Дніп,нк,--,2.38,3.59,1.209,253,243,100,нк 53,Dniprovskyi,without candidate,-0.185,3.775
+54,Дніп,Хрутьба А,Khrutba A,1.57,3.71,2.137,178,255,100,Хрутьба А 54,Dniprovskyi,with candidate,0.9475,2.7625
+55,Дніп,Городенська М,Horodenska M,3.79,3.07,-0.721,480,273,100,Городенська М 55,Dniprovskyi,with candidate,-2.4675,5.5375
+56,Дніп,Вербецький О,Verbetskyi O,2.98,4.21,1.235,350,323,100,Вербецький О 56,Dniprovskyi,with candidate,-0.315,4.525
+57,Дніп,Давидич В,Davydych V,2.59,3.18,0.591,285,236,100,Давидич В 57,Dniprovskyi,with candidate,-0.8575,4.0375
+58,Обол,нк,--,3.49,6,2.51,379,427,100,нк 58,Obolonskyi,without candidate,0.8375,5.1625
+59,Обол,нк,--,3.01,4.15,1.136,301,290,100,нк 59,Obolonskyi,without candidate,-0.4125,4.5625
+60,Обол,нк,--,4.08,4.64,0.559,427,327,100,нк 60,Obolonskyi,without candidate,-1.26,5.9
+61,Обол,нк,--,4.89,6.82,1.932,544,489,100,нк 61,Obolonskyi,without candidate,-0.0925,6.9125
+62,Обол,нк,--,3.49,4.66,1.165,368,312,100,нк 62,Obolonskyi,without candidate,-0.5025,5.1625
+63,Обол,Фурса В,Fursa V,3.39,5.21,1.814,352,366,100,Фурса В 63,Obolonskyi,with candidate,0.1725,5.0375
+64,Обол,Авлохов М,Avlokhov M,3.28,5.72,2.442,354,437,100,Авлохов М 64,Obolonskyi,with candidate,0.82,4.9
+65,Обол,нк,--,3.23,4.53,1.297,349,325,100,нк 65,Obolonskyi,without candidate,-0.3075,4.8375
+66,Обол,Ліфанова Ю,Lifanova Yu,3.76,5.1,1.345,417,397,100,Ліфанова Ю 66,Obolonskyi,with candidate,-0.4,5.5
+67,Обол,Тіменко А,Timenko A,3.47,4.01,0.535,359,307,100,Тіменко А 67,Obolonskyi,with candidate,-1.1275,5.1375
+68,Обол,нк,--,2.67,4.15,1.487,256,295,100,нк 68,Obolonskyi,without candidate,0.0125,4.1375
+69,Обол,Яригін С,Yaryhin S,2.44,4.18,1.738,273,315,100,Яригін С 69,Obolonskyi,with candidate,0.33,3.85
+70,Обол,Педай О,Pedai O,1.78,3.64,1.868,191,238,100,Педай О 70,Obolonskyi,with candidate,0.615,3.025
+71,Пече,Марценюк О,Martsenyuk O,5.65,8.08,2.431,609,580,100,Марценюк О 71,Pecherskyi,with candidate,0.2175,7.8625
+72,Пече,нк,--,4.2,6.73,2.529,442,478,100,нк 72,Pecherskyi,without candidate,0.68,6.05
+73,Пече,Барський Г,Barskyi H,4.63,6.12,1.486,478,423,100,Барський Г 73,Pecherskyi,with candidate,-0.4675,6.5875
+74,Пече,Пальнюк В,Palnyuk V,3.73,5.78,2.053,396,394,100,Пальнюк В 74,Pecherskyi,with candidate,0.3175,5.4625
+75,Пече,Коломієць Є,Kolomiyets Ye,4.79,6.27,1.478,505,466,100,Коломієць Є 75,Pecherskyi,with candidate,-0.5175,6.7875
+76,Поді,Чулков Д,Chulkov D,4.55,6.45,1.901,491,445,100,Чулков Д 76,Podilskyi,with candidate,-0.0375,6.4875
+77,Поді,Єрмакова К,Yermakova K,2.49,4.26,1.775,283,275,98,Єрмакова К 77,Podilskyi,with candidate,0.3475,3.9125
+78,Поді,нк,--,2.54,4.51,1.962,305,292,87,нк 78,Podilskyi,without candidate,0.535,3.975
+79,Поді,нк,--,3.07,3.96,0.892,336,285,99,нк 79,Podilskyi,without candidate,-0.6775,4.6375
+80,Поді,нк,--,3.02,4.38,1.356,358,327,100,нк 80,Podilskyi,without candidate,-0.195,4.575
+81,Поді,нк,--,4.17,3.86,-0.304,481,307,100,нк 81,Podilskyi,without candidate,-2.1525,6.0125
+82,Поді,нк,--,2.03,2.86,0.823,221,194,100,нк 82,Podilskyi,without candidate,-0.4775,3.3375
+83,Поді,нк,--,2.49,2.96,0.47,264,201,99,нк 83,Podilskyi,without candidate,-0.9525,3.9125
+84,Свят,нк,--,1.89,3.03,1.137,239,265,100,нк 84,Svyatoshynskyi,without candidate,-0.1325,3.1625
+85,Свят,Калніболотський М,Kalnibolotskyi M,1.74,2.36,0.614,218,196,100,Калніболотський М 85,Svyatoshynskyi,with candidate,-0.615,2.975
+86,Свят,нк,--,1.71,3.01,1.297,180,200,100,нк 86,Svyatoshynskyi,without candidate,0.0725,2.9375
+87,Свят,нк,--,2.1,3.1,0.997,247,232,100,нк 87,Svyatoshynskyi,without candidate,-0.325,3.425
+88,Свят,нк,--,2.14,3.12,0.982,274,253,100,нк 88,Svyatoshynskyi,without candidate,-0.355,3.475
+89,Свят,Курман І,Kurman I,2.03,2.92,0.887,246,231,100,Курман І 89,Svyatoshynskyi,with candidate,-0.4175,3.3375
+90,Свят,Ковальчук О,Kovalchuk O,2.18,3.53,1.349,261,270,100,Ковальчук О 90,Svyatoshynskyi,with candidate,0.005,3.525
+91,Свят,Тарасенко В,Tarasenko V,2.8,4.59,1.795,305,362,100,Тарасенко В 91,Svyatoshynskyi,with candidate,0.29,4.3
+92,Свят,нк,--,2.77,4.79,2.021,333,416,99,нк 92,Svyatoshynskyi,without candidate,0.5275,4.2625
+93,Свят,Яренко А,Yarenko A,2.64,4.88,2.242,271,328,100,Яренко А 93,Svyatoshynskyi,with candidate,0.78,4.1
+94,Свят,Бугаєнко О,Bugayenko O,2.15,3.71,1.557,234,239,100,Бугаєнко О 94,Svyatoshynskyi,with candidate,0.2225,3.4875
+95,Свят,Сандугей І,Sanduhei I,2.11,3.14,1.034,201,214,100,Сандугей І 95,Svyatoshynskyi,with candidate,-0.2975,3.4375
+96,Свят,Міхальова І,Mikhalyova I,2.97,5.51,2.535,343,434,100,Міхальова І 96,Svyatoshynskyi,with candidate,0.9975,4.5125
+97,Свят,Шиманський Є,Shymanskyi Ye,3.97,5.26,1.289,459,390,100,Шиманський Є 97,Svyatoshynskyi,with candidate,-0.5025,5.7625
+98,Соло,Мирончук Я,Myronchuk Ya,3.65,5.34,1.683,424,392,98,Мирончук Я 98,Solomyanskyi,with candidate,-0.0225,5.3625
+99,Соло,Черкасенко М,Cherkasenko M,3.65,5.38,1.73,444,426,100,Черкасенко М 99,Solomyanskyi,with candidate,0.0175,5.3625
+100,Соло,Бартовщук В,Bartovshchuk V,3.71,6.1,2.385,443,299,57,Бартовщук В 100,Solomyanskyi,with candidate,0.6625,5.4375
+101,Соло,Осмоловська В,Osmolovska V,3.43,5.69,2.264,355,402,100,Осмоловська В 101,Solomyanskyi,with candidate,0.6025,5.0875
+102,Соло,Данилюк А,Danylyuk A,3.24,5.39,2.146,368,371,100,Данилюк А 102,Solomyanskyi,with candidate,0.54,4.85
+103,Соло,Макаров С,Makarov S,2.16,3.95,1.792,243,273,99,Макаров С 103,Solomyanskyi,with candidate,0.45,3.5
+104,Соло,Валєєва О,Valyeyeva O,3.69,5.96,2.271,437,468,100,Валєєва О 104,Solomyanskyi,with candidate,0.5475,5.4125
+105,Соло,Біленко О,Bilenko O,3.22,14.32,11.095,357,800,100,Біленко О 105,Solomyanskyi,with candidate,9.495,4.825
+106,Соло,Димитров В,Dymytrov V,3.71,5.96,2.245,419,433,100,Димитров В 106,Solomyanskyi,with candidate,0.5225,5.4375
+107,Соло,Ширченко А,Shyrchenko A,2.92,4.71,1.789,312,314,100,Ширченко А 107,Solomyanskyi,with candidate,0.26,4.45
+108,Соло,Слободянюк І,Slobodyanyuk I,2.73,4.02,1.293,297,285,100,Слободянюк І 108,Solomyanskyi,with candidate,-0.1925,4.2125
+109,Соло,Морозова Х,Morozova Kh,2.42,4.13,1.704,261,264,99,Морозова Х 109,Solomyanskyi,with candidate,0.305,3.825
+110,Соло,Осипчук М,Osypchuk M,2.62,3.1,0.474,278,228,100,Осипчук М 110,Solomyanskyi,with candidate,-0.975,4.075
+111,Шевч,Омельянчук О,Omelyanchuk O,5.18,8.02,2.835,540,522,100,Омельянчук О 111,Shevchenkivskyi,with candidate,0.745,7.275
+112,Шевч,Колесник Р,Kolesnyk R,4.54,6.16,1.617,480,493,100,Колесник Р 112,Shevchenkivskyi,with candidate,-0.315,6.475
+113,Шевч,Вощанов Р,Voshchanov R,5.28,7.14,1.86,598,531,99,Вощанов Р 113,Shevchenkivskyi,with candidate,-0.26,7.4
+114,Шевч,Гвоздік О,Hvozdik O,3.76,4.99,1.228,353,376,100,Гвоздік О 114,Shevchenkivskyi,with candidate,-0.51,5.5
+115,Шевч,Соловей І,Solovei I,3.5,5.83,2.326,328,363,100,Соловей І 115,Shevchenkivskyi,with candidate,0.655,5.175
+116,Шевч,Мамедов М,Mamedov M,3.33,4.86,1.533,322,323,100,Мамедов М 116,Shevchenkivskyi,with candidate,-0.1025,4.9625
+117,Шевч,Дзіковська Д,Dzikovska D,2.67,3.41,0.736,287,262,100,Дзіковська Д 117,Shevchenkivskyi,with candidate,-0.7275,4.1375
+118,Шевч,Гарбут Є,Harbut Ye,3.74,5.77,2.026,366,393,100,Гарбут Є 118,Shevchenkivskyi,with candidate,0.295,5.475
+119,Шевч,Шубін Л,Shubin L,2.75,3.78,1.023,295,274,100,Шубін Л 119,Shevchenkivskyi,with candidate,-0.4575,4.2375
+120,Шевч,Гунько О,Hunko O,2.54,3.72,1.18,267,267,100,Гунько О 120,Shevchenkivskyi,with candidate,-0.255,3.975

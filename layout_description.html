@@ -1,0 +1,288 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+    <script type="text/javascript">
+      function draw(data) { 
+          "use strict";
+          var margin = 75,
+              width = 1000 - margin,
+              height = 500 - margin;
+			  
+		  var radius = 3;
+          var color = "blue";
+			  
+			
+          var svg = d3.select(".svg-container1")
+            .append("svg")
+              .attr("width", width + margin)
+              .attr("height", height + margin)
+            .append('g')
+                .attr('class','chart');
+			
+		/*  var has_candidate = function(d) {
+            if (d["cand_2015_en"] === "--") {return "yes"}
+            else 	{ return "no" }
+        ;} */
+          var myChart = new dimple.chart(svg, data);
+          var x = myChart.addCategoryAxis("x", "constituency_2015"); 
+          myChart.addMeasureAxis("y", "%15");
+          //myChart.addColorAxis("district_en")
+		  myChart.addSeries(["has_cand_2015"],dimple.plot.bar);
+		  //myChart.addLegend(10, 50, 510, 20, "middle", [names]);
+		   
+		  /*myChart.defaultColors = [
+				new dimple.color("orange") // You can use #RGB here
+		  ]; */
+		  
+		  var myLegend  = myChart.addLegend(0, 0.7*margin, width-3*margin, 70, "right");
+          myChart.draw();
+        };
+
+		function draw2(data) { 
+          "use strict";
+          var margin = 75,
+              width = 1000 - margin,
+              height = 500 - margin;
+			  
+		  var radius = 3;
+          var color = "blue";
+			  
+			
+          var svg = d3.select(".svg-container2")
+            .append("svg")
+              .attr("width", width + margin)
+              .attr("height", height + margin)
+            .append('g')
+                .attr('class','chart');
+			
+		/*  var has_candidate = function(d) {
+            if (d["cand_2015_en"] === "--") {return "yes"}
+            else 	{ return "no" }
+        ;} */
+          var myChart = new dimple.chart(svg, data);
+          var x = myChart.addMeasureAxis("x", "%14"); 
+          myChart.addMeasureAxis("y", "%15");
+          //myChart.addColorAxis("district_en")
+		  myChart.addSeries(["constituency_2015","has_cand_2015"],dimple.plot.bubble);
+		  //myChart.addLegend(10, 50, 510, 20, "middle", [names]);
+		   
+		  /*myChart.defaultColors = [
+				new dimple.color("orange") // You can use #RGB here
+		  ]; */
+		  
+		  var myLegend  = myChart.addLegend(0, 0.7*margin, width-3*margin, 70, "right");
+          myChart.draw();
+        };
+			
+			
+		function draw3(data) {
+      
+      /*
+        D3.js setup code
+      */
+
+          "use strict"; 
+          var margin = 75,
+              width = 1000,
+              height = 500;
+
+          var radius = 5;
+			  
+
+      // Create svg
+        var svg = d3.select(".svg-container3")
+          .append("svg")
+            .attr("width", width)
+            .attr("height", height)
+          .append('g')
+              .attr('class','chart');
+
+
+          // Create the selection tabs for the districts in the right side of the page
+          // This was inspired by the example from
+          // http://dimplejs.org/advanced_examples_viewer.html?id=advanced_storyboard_control
+          // I adapted the code provided there
+
+          // Create the indicator chart on the right of the main chart
+          var indicator = new dimple.chart(svg, data);
+
+          // Pick blue as the default and orange for the selected month
+          var defaultColor = indicator.defaultColors[0];
+          var indicatorColor = indicator.defaultColors[2];
+
+          // The frame duration for the animation in milliseconds
+          var frame = 2000;
+
+ 
+          // Place the indicator bar chart to the right
+          var indicator_x0=width-2.5*margin,
+              indicator_y0=margin,
+              indicator_width=2*margin;
+          indicator.setBounds(indicator_x0, indicator_y0, indicator_width, 300);
+
+          // Add dates along the y axis
+          var yy = indicator.addCategoryAxis("y", "district_en");
+          yy.addOrderRule("district_en", "Desc");
+
+          // Use number of votes for bar size and hide the axis
+          var xx = indicator.addMeasureAxis("x", "votes15");
+          xx.hidden = true;
+
+          // Add the bars to the indicator and add event handlers
+          var s = indicator.addSeries(null, dimple.plot.bar);
+          s.addEventHandler("click", onClick);
+          // Draw the side chart
+          indicator.draw();
+
+          // Remove the title from the y axis
+          yy.titleShape.remove();
+
+          // Remove the lines from the y axis
+          yy.shapes.selectAll("line,path").remove();
+
+          // Move the y axis text inside the plot area
+          yy.shapes.selectAll("text")
+                  .style("text-anchor", "start")
+                  .style("font-size", "11px")
+                  .attr("transform", "translate(18, 0.5)");
+
+
+          // This block adds the legend title. 
+          svg.selectAll("title_text")
+                  .data(["Click bar to highlight",
+                      "constituencies from",
+                      "the selected district"])
+                  .enter()
+                  .append("text")
+                  .attr("x", indicator_x0)
+                  .attr("y", function (d, i) { return margin - 45 + i * 15; })
+                  .style("font-family", "sans-serif")
+                  .style("font-size", "12px")
+                  .style("color", "Black")
+                  .text(function (d) { return d; });
+
+          // Manually set the bar colors
+          s.shapes
+                  .attr("rx", 10)
+                  .attr("ry", 10)
+                  .style("fill", function (d) { return (d.y === 'Darnytskyi' ? indicatorColor.fill : defaultColor.fill) })
+                  .style("stroke", function (d) { return (d.y === 'Darnytskyi' ? indicatorColor.stroke : defaultColor.stroke) })
+                  .style("opacity", 0.4);
+
+
+
+          // Create the main chart with dimple   
+          var myChart = new dimple.chart(svg, data);
+              myChart.setBounds(margin, margin,width-4*margin, height-2*margin);
+          // Add axes
+          var x = myChart.addMeasureAxis("x", "expected"); 
+          var y = myChart.addMeasureAxis("y", "diff");
+          // adjust axes
+    		  x.overrideMin = 0;
+          x.overrideMax = 9;
+    		  y.overrideMin = -3;  
+    		  y.overrideMax = 3;
+          x.tickFormat = ',f';
+          y.tickFormat = ',.1f';
+          y.ticks = 13;
+          x.fontSize = "12px"
+          y.fontSize = "12px"
+
+          // Add series and legend to the chart
+    		  var c = myChart.addSeries(["constituency_2015","district_en","cand_2015_en","%14","%15","has_cand_2015"],dimple.plot.circle);
+    		  var myLegend  = myChart.addLegend(0, 0.7*margin, width-3*margin, 70, "right");
+        
+          myChart.draw();
+
+          // Adjust axes labels
+          x.titleShape.text("Expected share of votes (%)").style("font-size","14px");  
+          y.titleShape.text("Difference between actual and expected results (p.p.)").style("font-size","14px");   
+
+       
+          // Initially no district is selected
+          var districtSelected="null";
+
+          // On click of the side chart
+          function onClick(e) {
+              
+              if (e.yValue===districtSelected) {
+                // do nothing if the same district is clicked
+              } else {
+               // console.log(e.yValue);
+              //change the color of the bar with the selecte district name
+              s.shapes
+                          .transition()
+                          .duration(frame / 2)
+                          .style("fill", function (d) { return (d.y === e.yValue ? indicatorColor.fill : defaultColor.fill) })
+                          .style("stroke", function (d) { return (d.y === e.yValue ? indicatorColor.stroke : defaultColor.stroke) });
+              
+              // make all circles of default radius and stroke
+              d3.select("svg").selectAll("circle.dimple-bubble")
+                          .attr("r",5)
+                          //.attr("stroke","gray")
+                          .attr("opacity",0.45)
+
+              d3.select("svg").selectAll("circle.dimple-yes")
+                          .attr("stroke",myChart.defaultColors[0].stroke)
+                          .attr("fill",myChart.defaultColors[0].fill)
+                          //.style("stroke-width","3px")
+                          .style("stroke-opacity",1.0)
+              d3.select("svg").selectAll("circle.dimple-no")
+                          .attr("stroke",myChart.defaultColors[1].fill) 
+                          .attr("fill",myChart.defaultColors[1].fill)
+
+
+              // apply a new style to circles for the selected district
+              var str = "circle.dimple-" + e.yValue.toLowerCase()
+              d3.select("svg").selectAll(str)
+                          .transition()
+                          .duration(frame / 2)
+                          .attr("r",10) 
+                          //.attr("stroke","violet")
+                          .attr("opacity",0.8)
+
+              // Save the name of the selected district
+              districtSelected=e.yValue
+            }
+          }	
+        };
+
+		
+      </script>
+  </head>
+<body>
+	<h2>Brief explanation of the layout selection</h2>
+	<div>I am visualizing the data from the two local elections to the Kyiv city council on May 25, 2014 and Oct 25, 2015. I focus on the results of Democratic Alliance party, for which the election of 2014 were the first in its history. For a fledging party, it is of critical importance to understand how to get support from the voters. Our visualization helps easily identify constituencies where the party activists perform the best in increasing the number of supporters. <div>
+	
+	<div>We start with the following data on election results in 2015 vs constituency.
+	</div>
+	<div class="svg-container1"> 
+			</div>
+  <script type="text/javascript">
+    d3.csv("results_by_constituency.csv", draw);
+  </script>
+  
+  <div>However, some of those candidates who were very active during the campaign got much smaller share of votes than those who were not active at all. Could it mean that the candidate activity does not matter? No. If we depict the results in 2015 vs the results in 2014, we can see that the level of support is sticky, so that even the best candidates (I exclude the outlier from the conversation here) did not get much higher or lower support then a year before.
+	</div>
+  
+  <div class="svg-container2"> 
+			</div>
+  <script type="text/javascript">
+    d3.csv("results_by_constituency.csv", draw2);
+  </script>
+  
+  <div>So, the candidate's impact on the results is better measured by the difference from the regression line. The required chart so compare the impact of candidates is shown below. Actually, this chart is my initial visualization for this project.
+	</div>
+	
+	<div class="svg-container3"> 
+			</div>
+  <script type="text/javascript">
+    d3.csv("results_by_constituency.csv", draw3);
+  </script>
+  
+</body>
+</html>
